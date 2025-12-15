@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REMIXIA - Channel Musik</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-music text-purple-600 text-xl"></i>
+                <span class="text-xl font-bold text-purple-600">REMIXIA</span>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class="text-gray-800 hover:text-purple-600 transition">Home</a>
+                <a href="#videos" class="text-gray-800 hover:text-purple-600 transition">Videos</a>
+                <a href="#about" class="text-gray-800 hover:text-purple-600 transition">About</a>
+                <a href="#contact" class="text-gray-800 hover:text-purple-600 transition">Contact</a>
+            </div>
+            <button class="md:hidden text-gray-800">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-16 bg-gradient-to-br from-purple-900 to-indigo-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">SELAMAT DATANG DI REMIXIA</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Temukan koleksi musik terbaik kami dengan sentuhan modern dan kreatif.</p>
+            
+            <div class="max-w-4xl mx-auto mt-12">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen class="rounded-lg shadow-lg"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="videos" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Video Terpopuler</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Beberapa karya terbaik dari channel REMIXIA yang sudah ditonton jutaan kali.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover">
+                    <img src="https://picsum.photos/seed/music1/400/225.jpg" alt="Video 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Remix Modern Hits</h3>
+                        <p class="text-gray-600 text-sm mb-3">Lagu populer dengan sentuhan elektronik modern</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-gray-500"><i class="far fa-clock mr-1"></i> 3:45</span>
+                            <span class="text-xs text-gray-500"><i class="far fa-eye mr-1"></i> 245K views</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover">
+                    <img src="https://picsum.photos/seed/music2/400/225.jpg" alt="Video 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Electronic Dreams</h3>
+                        <p class="text-gray-600 text-sm mb-3">Kolaborasi dengan artis ternama dunia</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-gray-500"><i class="far fa-clock mr-1"></i> 4:12</span>
+                            <span class="text-xs text-gray-500"><i class="far fa-eye mr-1"></i> 189K views</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover">
+                    <img src="https://picsum.photos/seed/music3/400/225.jpg" alt="Video 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Night Vibes Mix</h3>
+                        <p class="text-gray-600 text-sm mb-3">Koleksi lagu EDM terbaik untuk malam</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-gray-500"><i class="far fa-clock mr-1"></i> 5:30</span>
+                            <span class="text-xs text-gray-500"><i class="far fa-eye mr-1"></i> 156K views</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8">Tentang REMIXIA</h2>
+                <p class="text-gray-600 leading-relaxed mb-8">
+                    REMIXIA adalah channel musik digital yang fokus pada produksi ulang lagu-lagu populer dengan sentuhan modern dan kreatif. Kami berdedikasi untuk memberikan pengalaman musik yang unik dan memukau bagi para pendengar.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Dengan kombinasi suara elektronik, beat yang catchy, dan aransemen yang cerdas, setiap remix yang kami buat dirancang untuk membuat Anda berdansa dan menikmati musik dengan cara baru.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8">Hubungi Kami</h2>
+                <p class="text-gray-600 mb-8">Ingin berkolaborasi atau memiliki pertanyaan? Hubungi kami melalui saluran berikut:</p>
+                
+                <div class="flex justify-center space-x-6 mb-8">
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition">
+                        <i class="fab fa-youtube text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition">
+                        <i class="fab fa-twitter text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600 transition">
+                        <i class="fab fa-facebook text-2xl"></i>
+                    </a>
+                </div>
+                
+                <div class="bg-gray-100 rounded-lg p-6">
+                    <form>
+                        <div class="mb-4">
+                            <input type="email" placeholder="Email Anda" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-600">
+                        </div>
+                        <div class="mb-4">
+                            <textarea rows="4" placeholder="Pesan Anda" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-600"></textarea>
+                        </div>
+                        <button type="submit" class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition">
+                            Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 REMIXIA. Semua Hak Dilindungi.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                <a href="#" class="text-gray-400 hover:text-white transition">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const menuButton = document.querySelector('.md\\:hidden');
+        const navLinks = document.querySelector('.md\\:flex');
+        
+        if (menuButton) {
+            menuButton.addEventListener('click', () => {
+                navLinks.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
